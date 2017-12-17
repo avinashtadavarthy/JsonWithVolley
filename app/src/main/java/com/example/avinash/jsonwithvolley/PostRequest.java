@@ -51,7 +51,7 @@ public class PostRequest extends AppCompatActivity {
         String url = "http://24crafts.tk:3000/login";
 
         final String userid = id.getText().toString();
-        final String password = id.getText().toString();
+        final String password = pwd.getText().toString();
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
 
@@ -67,12 +67,12 @@ public class PostRequest extends AppCompatActivity {
             }
         }){
             @Override
-            protected Map<String, String> getParams() {
+            protected Map<String, String> getParams() throws AuthFailureError {
 
                 Map<String, String> params = new HashMap<String, String>();
 
-                params.put("username", "actress1@gmail.com");
-                params.put("password", "actress1");
+                params.put("username", userid);
+                params.put("password", password);
 
                 return params;
             }
