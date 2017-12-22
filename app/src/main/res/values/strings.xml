@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JsonWithVolley</string>
+    <string name="facebook_app_id">106468900132564</string>
+
+    <string name="FACEBOOK_APP_IDnew">1497155203735641</string>
+
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">b6c8bbc8c2ad7fabe72e82871fd71d65</string>
+
+    <string name="fb_login_protocol_scheme">fb106468900132564</string>
+
+    <string name="server_client_id">918615853727-e0p0hlnj4m1pa94c9vm1mldukai8mk4q.apps.googleusercontent.com</string>
+
 </resources>
